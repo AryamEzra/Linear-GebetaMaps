@@ -1,9 +1,7 @@
-export default function App() {
-  return (
-    <div className="flex h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        🚀 Tailwind + React 19 + Vite is working!
-      </h1>
-    </div>
-  );
+import Home from './pages/Home/home_page';
+
+function App() {
+  return <Home />;
 }
+
+export default App;
